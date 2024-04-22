@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--For responsive design-->
+    <link rel="stylesheet" href="style.css"> <!--Link to external spreadsheet to be more user friendly-->
+    <title>JavaScript Simple Calculator by Jake</title> 
+</head>
+<body>
+    <header>
+    <h1>JavaScript Simple Calculator by Jake</h1>
+    <!--Nav that links home and calculator pages-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculator.html">JS Calculator</a></li>
+            <li>Link three</li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <!--The calculator form-->
+        <form id="calculator">
+            Value 1: <input type="text" id="value1"> <!--Input field for first value-->
+            Value 2: <input type="text" id="value2"> <!--Input field for second value-->
+            Operator:
+            <select id="operator"> <!--Dropdown for operator selection-->
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+                <option value="mod">Modulo</option>
+            </select>
+            <button type="button" onclick="calc()">Calculate</button> <!--Very important calculate button to output-->
+        </form>
+
+        <div id="result"></div> <!--Placeholder for displaying the results-->
+    </main>
+    <script src="main.js"></script> <!--Link to external JS file-->
+</body>
+</html>
