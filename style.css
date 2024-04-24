@@ -1,67 +1,21 @@
-/* Universal reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-  }
-  /* Container styles */
-  .container {
-    max-width: 960px;
-    margin: auto;
-    padding: 20px;
-  }
-  /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
-  /* Simple nav styles */
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  /* Calculator form styles */
-  form#calculator {
-    margin-bottom: 20px;
-  }
-  
-  form#calculator input,
-  form#calculator select,
-  form#calculator button {
-    margin: 5px;
-  }
-  
-  form#calculator button {
-    cursor: pointer;
-  }
-  /* Result display styles */
-  #result {
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-  }
-  
+/*Jake Lian 4/24/202 */
+/*Project 1 - Complete AFTER Final Topic Discussion*/
+/*CIS166AA 26678*/
+/* Styling for nav */
+#main-nav ul {
+  list-style-type: none; /*Removes default list style */
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav li {
+  display: inline; /*for horizontal list items*/
+  margin-right: 20px; /*Adds some spacing*/
+}
+/* Styling for paragraph */
+.intro-paragraph {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6; /* Increased line-height for better readability */
+}
